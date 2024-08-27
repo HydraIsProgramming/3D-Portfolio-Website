@@ -47,12 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a student a Wilfird Laurier University in Computer Science. I have a passion for Web Developement 
-        and a intrest in AI. Currently studying in my third year for my degree with a minior in 
-        User Interace Design. I'm a skilled software developer with experience in Python, Java, Javascript and in framworks like 
-        React and Tailwind Css. I'm a quick learner and collaborate closely with others to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together and make new ideas come to life! My intrests below - 
+        I am a student at Wilfrid Laurier University in Computer Science. I have a passion for Web development 
+ and an interest in AI. Currently studying in my third year for my degree with a minor in 
+ User Interface Design. I'm a skilled software developer with experience in Python, Java, Javascript, and frameworks like 
+ React and Tailwind CSS. I'm a quick learner and collaborate closely with others to
+ create efficient, scalable, and user-friendly solutions that solve
+ real-world problems. Let's work together and make new ideas come to life! My interests below - 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
