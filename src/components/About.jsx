@@ -51,8 +51,8 @@ const About = () => {
  and an interest in AI. Currently studying in my third year for my degree with a minor in 
  User Interface Design. I'm a skilled software developer with experience in Python, Java, Javascript, and frameworks like 
  React and Tailwind CSS. I'm a quick learner and collaborate closely with others to
- create efficient, scalable, and user-friendly solutions that solve
- real-world problems. Let's work together and make new ideas come to life! My interests below - 
+ create efficient, scalable, and user friendly solutions that solve
+ real world problems. Let's work together and make new ideas come to life! My interests below - 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

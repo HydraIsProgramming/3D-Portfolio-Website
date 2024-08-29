@@ -16,12 +16,12 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  laurier,
+  tutor,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  java,
+  trade,
+  website,
   threejs,
 } from "../assets";
 
@@ -118,27 +118,27 @@ const experiences = [
   {
     title: "Student Proctor",
     company_name: "Wilfrid Laurier University",
-    icon: starbucks,
+    icon: laurier,
     iconBg: "#383E56",
     date: "January 2024 - Present",
     points: [
-      "Supervising and monitoring students during exams to ensure academic integrity",
+      "Supervising and monitoring students during exams to ensure academic integrity.",
       "Helping studnets set up there exams. Ex. Importing their files and extracting them for submission.",
       "Providing clear instructions and addressing student inquiries during exams.",
       "Helping students with technical difficulties during computer written exams.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Google",
-    icon: tesla,
+    title: "Tutor",
+    company_name: "Personal Job",
+    icon: tutor,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created and taught customized lessons to help students understand Math, Physics, Python and English.",
+      "Helped students improve their grades and prepare for exams by giving focused support and practice tests.",
+      "Explained difficult ideas clearly and used easy teaching methods to build student confidence.",
+      "Adapted my teaching based on how well each student was doing to make sure they learned effectively.",
     ],
   },
   {
@@ -180,10 +180,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "You were the driving force that kept the team on track, consistently reaching out and motivating us. You implemented the SMA9 and SMA21 indicators, improved the graph and Gradio interface, and fixed the dataset to work across multiple stocks.",
+    name: " Usama Mohiuddin",
+    designation: "Project Partner",
+    company: "Trading Prediction Bot",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -215,7 +215,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: java,
     source_code_link: "https://github.com/HydraIsProgramming/Car-Rental-Interface",
   },
   {
@@ -236,13 +236,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: trade,
     source_code_link: "https://github.com/HydraIsProgramming/Stock_Trading_Bot-AI",
   },
   {
     name: "3D Portfolio Website",
     description:
-      "The code for this webiste which tells you all about me. (Still need to upload to Github.)",
+      "The code for this webiste which tells you all about me.",
     tags: [
       {
         name: "JavaScript",
@@ -257,7 +257,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: website,
     source_code_link: "https://github.com/HydraIsProgramming",
   },
 ];
