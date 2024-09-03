@@ -133,7 +133,7 @@ const experiences = [
     company_name: "Personal Job",
     icon: tutor,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2022 - Present",
     points: [
       "Created and taught customized lessons to help students understand Math, Physics, Python and English.",
       "Helped students improve their grades and prepare for exams by giving focused support and practice tests.",
@@ -142,29 +142,23 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Coming Soon",
+    company_name: "----",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "----",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Coming Soon",
+    company_name: "----",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "----",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "",
     ],
   },
 ];
@@ -184,15 +178,15 @@ const testimonials = [
     name: " Usama Mohiuddin",
     designation: "Project Partner",
     company: "Trading Prediction Bot",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I really liked working with you on the trading bot project. Your ideas were great, and it was fun and productive working together. I’m happy with what we achieved and look forward to the next porject with you!",
+    name: "Rupesh Rangwani",
+    designation: "Project Partner",
+    company: "Trading Prediction Bot",
+    image: "",
   },
 ];
 
