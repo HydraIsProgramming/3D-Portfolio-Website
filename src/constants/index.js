@@ -19,6 +19,7 @@ import {
   laurier,
   tutor,
   tcs,
+  realityai,
   shopify,
   java,
   trade,
@@ -140,6 +141,18 @@ const experiences = [
       "Helped students improve their grades and prepare for exams by giving focused support and practice tests.",
       "Explained difficult ideas clearly and used easy teaching methods to build student confidence.",
       "Adapted my teaching based on how well each student was doing to make sure they learned effectively.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Reality AI Lab",
+    icon: realityai,
+    iconBg: "#383E56",
+    date: "February 2025 - May 2025",
+    points: [
+      "Collaborated within an agile team, contributing to sprint planning, stand-ups, and design reviews.",
+      "Created and iterated on website wireframes and UI designs in Figma, aligning design decisions with user and business requirements.",
+      "Reviewed code, identified defects, and implemented fixes to improve stability and integration.",
     ],
   },
   {

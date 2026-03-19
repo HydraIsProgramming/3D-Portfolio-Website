@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import laurier from "./company/laurier.png";
 import tutor from "./company/tutor.png";
 import tcs from "./company/tcs.svg";
+import realityai from "./company/realityai.png";
 
 import java from "./java.png";
 import trade from "./trade.png";
@@ -58,6 +59,7 @@ export {
   laurier,
   tutor,
   tcs,
+  realityai,
   java,
   trade,
   website,
