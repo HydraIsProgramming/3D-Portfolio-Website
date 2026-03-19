@@ -19,6 +19,7 @@ import {
   laurier,
   tutor,
   tdtcs,
+  realityai,
   shopify,
   java,
   trade,
@@ -117,19 +118,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Student Proctor",
-    company_name: "Wilfrid Laurier University",
-    icon: laurier,
-    iconBg: "#383E56",
-    date: "January 2024 - Present",
-    points: [
-      "Supervising and monitoring students during exams to ensure academic integrity.",
-      "Helping studnets set up there exams. Ex. Importing their files and extracting them for submission.",
-      "Providing clear instructions and addressing student inquiries during exams.",
-      "Helping students with technical difficulties during computer written exams.",
-    ],
-  },
-  {
     title: "Tutor",
     company_name: "Personal Job",
     icon: tutor,
@@ -140,6 +128,31 @@ const experiences = [
       "Helped students improve their grades and prepare for exams by giving focused support and practice tests.",
       "Explained difficult ideas clearly and used easy teaching methods to build student confidence.",
       "Adapted my teaching based on how well each student was doing to make sure they learned effectively.",
+    ],
+  },
+  {
+    title: "Student Proctor",
+    company_name: "Wilfrid Laurier University",
+    icon: laurier,
+    iconBg: "#383E56",
+    date: "January 2024 - Present",
+    points: [
+      "Supervising and monitoring students during exams to ensure academic integrity.",
+      "Helping students set up their exams. Ex. Importing their files and extracting them for submission.",
+      "Providing clear instructions and addressing student inquiries during exams.",
+      "Helping students with technical difficulties during computer written exams.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Reality AI Lab",
+    icon: realityai,
+    iconBg: "#383E56",
+    date: "February 2025 - May 2025",
+    points: [
+      "Collaborated within an agile team, contributing to sprint planning, stand-ups, and design reviews.",
+      "Created and iterated on website wireframes and UI designs in Figma, aligning design decisions with user and business requirements.",
+      "Reviewed code, identified defects, and implemented fixes to improve stability and integration.",
     ],
   },
   {
@@ -180,14 +193,14 @@ const testimonials = [
   {
     testimonial:
       "You were the driving force that kept the team on track, consistently reaching out and motivating us. You implemented the SMA9 and SMA21 indicators, improved the graph and Gradio interface, and fixed the dataset to work across multiple stocks.",
-    name: " Usama Mohiuddin",
+    name: "Usama Mohiuddin",
     designation: "Project Partner",
     company: "Trading Prediction Bot",
     image: "",
   },
   {
     testimonial:
-      "I really liked working with you on the trading bot project. Your ideas were great, and it was fun and productive working together. I’m happy with what we achieved and look forward to the next porject with you!",
+      "I really liked working with you on the trading bot project. Your ideas were great, and it was fun and productive working together. I'm happy with what we achieved and look forward to the next project with you!",
     name: "Rupesh Rangwani",
     designation: "Project Partner",
     company: "Trading Prediction Bot",
@@ -205,20 +218,12 @@ const projects = [
         name: "Java",
         color: "blue-text-gradient",
       },
-      {
-        name: "",
-        color: "green-text-gradient",
-      },
-      {
-        name: "",
-        color: "pink-text-gradient",
-      },
     ],
     image: java,
     source_code_link: "https://github.com/HydraIsProgramming/Car-Rental-Interface",
   },
   {
-    name: "Trading Predication Bot",
+    name: "Trading Prediction Bot",
     description:
       "We have made our own AI model that takes the stock, date range, and initial trading amount from the user. Then outputs the final capital you would have if you were to make accurate trades during the date range.",
     tags: [
@@ -241,7 +246,7 @@ const projects = [
   {
     name: "3D Portfolio Website",
     description:
-      "The code for this webiste which tells you all about me.",
+      "The code for this website which tells you all about me.",
     tags: [
       {
         name: "JavaScript",

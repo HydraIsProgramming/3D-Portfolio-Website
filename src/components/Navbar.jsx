@@ -64,12 +64,17 @@ const Navbar = () => {
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
-          <img
-            src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+          <button
             onClick={() => setToggle(!toggle)}
-          />
+            aria-label={toggle ? "Close menu" : "Open menu"}
+            className='w-[28px] h-[28px] flex items-center justify-center'
+          >
+            <img
+              src={toggle ? close : menu}
+              alt=''
+              className='w-[28px] h-[28px] object-contain'
+            />
+          </button>
 
           <div
             className={`${
