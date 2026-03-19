@@ -175,8 +175,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2025 - Present",
     points: [
-      "Developed an EV infrastructure planning tool",
-      "Focused on ROI and the importance of demand forecasting",
+      "Collaborated with a faculty researcher to design and implement an AI-based solution to a real-world research problem.",
+      "Performed data collection, preprocessing, and exploratory analysis to support model training.",
+      "Built and evaluated machine learning models to derive actionable insights from data.",
+      "Applied iterative experimentation and performance tuning to improve model accuracy.",
+      "Communicated technical results through documentation and presentations.",
     ],
   },
 ];
