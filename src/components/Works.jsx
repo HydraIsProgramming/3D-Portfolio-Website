@@ -29,21 +29,24 @@ const ProjectCard = ({
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
-            alt='project_image'
+            alt={name}
             className='w-full h-full object-cover rounded-2xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
+            <a
+              href={source_code_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View source code for ${name} on GitHub`}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
                 src={github}
-                alt='source code'
+                alt='GitHub'
                 className='w-1/2 h-1/2 object-contain'
               />
-            </div>
+            </a>
           </div>
         </div>
 
