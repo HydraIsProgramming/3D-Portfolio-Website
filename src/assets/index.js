@@ -28,9 +28,18 @@ import tutor from "./company/tutor.png";
 import tdtcs from "./company/TDTCS.png";
 import realityai from "./company/realityai.png";
 
+import mlIcon from "./ai-icons/machine-learning.svg";
+import dataScience from "./ai-icons/data-science.svg";
+import neuralNetwork from "./ai-icons/neural-network.svg";
+import mlops from "./ai-icons/mlops.svg";
+
 import java from "./java.png";
 import trade from "./trade.png";
 import website from "./website.png";
+import clientserver from "./clientserver.svg";
+import carrent from "./carrent.svg";
+import tradingbot from "./tradingbot.svg";
+import portfolio3d from "./portfolio3d.svg";
 
 export {
   logo,
@@ -60,7 +69,15 @@ export {
   tutor,
   tdtcs,
   realityai,
+  mlIcon,
+  dataScience,
+  neuralNetwork,
+  mlops,
   java,
   trade,
   website,
+  clientserver,
+  carrent,
+  tradingbot,
+  portfolio3d,
 };

@@ -1,11 +1,52 @@
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import NeuralBackground from "./NeuralBackground";
+
+const ROLES = [
+  "Machine Learning Engineer",
+  "AI Researcher",
+  "Data Scientist",
+  "Software Engineer",
+  "Full Stack Developer",
+  "Site Reliability Engineer",
+];
+
+const useTypewriter = (words, typingSpeed = 80, deletingSpeed = 40, pause = 1800) => {
+  const [displayed, setDisplayed] = useState("");
+  const [wordIndex, setWordIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const current = words[wordIndex % words.length];
+    const timeout = setTimeout(() => {
+      if (!isDeleting) {
+        setDisplayed(current.slice(0, displayed.length + 1));
+        if (displayed.length + 1 === current.length) {
+          setTimeout(() => setIsDeleting(true), pause);
+        }
+      } else {
+        setDisplayed(current.slice(0, displayed.length - 1));
+        if (displayed.length - 1 === 0) {
+          setIsDeleting(false);
+          setWordIndex((i) => i + 1);
+        }
+      }
+    }, isDeleting ? deletingSpeed : typingSpeed);
+    return () => clearTimeout(timeout);
+  }, [displayed, isDeleting, wordIndex, words, typingSpeed, deletingSpeed, pause]);
+
+  return displayed;
+};
 
 const Hero = () => {
+  const role = useTypewriter(ROLES);
+
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto overflow-hidden`}>
+      <NeuralBackground />
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -19,8 +60,10 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ranjot Sandhu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Computer Science, User Interface Design <br className='sm:block hidden' />
-            and Big Data Systems
+            Building intelligent systems & AI-driven solutions
+          </p>
+          <p className={`${styles.heroSubText} mt-1 text-[#915EFF]`}>
+            {role}<span className="animate-pulse">|</span>
           </p>
         </div>
       </div>

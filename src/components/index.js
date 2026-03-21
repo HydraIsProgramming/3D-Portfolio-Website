@@ -8,12 +8,14 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Skills from "./Skills";
 
 
 export {
   Hero,
   Navbar,
   About,
+  Skills,
   Tech,
   Experience,
   Works,

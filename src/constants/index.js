@@ -20,10 +20,18 @@ import {
   tutor,
   tdtcs,
   realityai,
+  mlIcon,
+  dataScience,
+  neuralNetwork,
+  mlops,
   shopify,
   java,
   trade,
   website,
+  clientserver,
+  carrent,
+  tradingbot,
+  portfolio3d,
   threejs,
 } from "../assets";
 
@@ -31,6 +39,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "work",
@@ -58,6 +70,22 @@ const services = [
   {
     title: "Data Management",
     icon: creator,
+  },
+  {
+    title: "Machine Learning",
+    icon: mlIcon,
+  },
+  {
+    title: "Data Science",
+    icon: dataScience,
+  },
+  {
+    title: "AI Research",
+    icon: neuralNetwork,
+  },
+  {
+    title: "MLOps",
+    icon: mlops,
   },
 ];
 
@@ -222,7 +250,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: java,
+    image: carrent,
     source_code_link: "https://github.com/HydraIsProgramming/Car-Rental-Interface",
   },
   {
@@ -243,8 +271,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: trade,
+    image: tradingbot,
     source_code_link: "https://github.com/HydraIsProgramming/Stock_Trading_Bot-AI",
+  },
+  {
+    name: "Client-Server Assignment",
+    description:
+      "A client-server application demonstrating socket-based network communication. The server handles multiple concurrent client connections, processing requests and returning responses over TCP/IP.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Networking",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sockets",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: clientserver,
+    source_code_link: "https://github.com/HydraIsProgramming",
   },
   {
     name: "3D Portfolio Website",
@@ -264,7 +313,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: website,
+    image: portfolio3d,
     source_code_link: "https://github.com/HydraIsProgramming",
   },
 ];

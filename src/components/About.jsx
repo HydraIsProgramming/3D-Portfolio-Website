@@ -40,19 +40,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a student at Wilfrid Laurier University in Computer Science. I have a passion for Web development 
- and an interest in AI. Currently studying in my third year for my degree with a minor in 
- User Interface Design. I'm a skilled software developer with experience in Python, Java, Javascript, and frameworks like 
- React and Tailwind CSS. I'm a quick learner and collaborate closely with others to
- create efficient, scalable, and user friendly solutions that solve
- real world problems. Let's work together and make new ideas come to life! My interests below - 
+        Computer Science graduate (Wilfrid Laurier University, August 2026) with a minor in UI Design — I build at the intersection of AI, software engineering, and reliability. Through internships at TCS (TD Bank) and Reality AI Lab, I've shipped production-grade AI models, automated testing pipelines, and full-stack applications used by real users. I'm fluent in Python, Java, and JavaScript, and I bring a strong foundation in machine learning, data science, and site reliability tooling. I design with the user in mind, engineer for scale, and move fast without breaking things. My areas of focus below —
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

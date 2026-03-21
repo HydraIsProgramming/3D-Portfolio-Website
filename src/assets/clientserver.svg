@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
+  <!-- Background -->
+  <rect width="500" height="350" rx="16" fill="#1d1836"/>
+
+  <!-- Server (right) -->
+  <rect x="320" y="80" width="120" height="180" rx="10" fill="#2a2060" stroke="#915EFF" stroke-width="2"/>
+  <!-- Server slots -->
+  <rect x="335" y="100" width="90" height="18" rx="4" fill="#915EFF" opacity="0.3"/>
+  <rect x="335" y="126" width="90" height="18" rx="4" fill="#915EFF" opacity="0.3"/>
+  <rect x="335" y="152" width="90" height="18" rx="4" fill="#915EFF" opacity="0.3"/>
+  <!-- Server lights -->
+  <circle cx="410" cy="109" r="4" fill="#00cea8"/>
+  <circle cx="410" cy="135" r="4" fill="#00cea8" opacity="0.5"/>
+  <circle cx="410" cy="161" r="4" fill="#915EFF"/>
+  <!-- Server label -->
+  <text x="380" y="225" text-anchor="middle" font-family="monospace" font-size="13" fill="#aaa">SERVER</text>
+  <!-- Server base -->
+  <rect x="340" y="240" width="80" height="10" rx="3" fill="#915EFF" opacity="0.4"/>
+
+  <!-- Client / Computer (left) -->
+  <!-- Monitor -->
+  <rect x="60" y="90" width="140" height="100" rx="8" fill="#2a2060" stroke="#00cea8" stroke-width="2"/>
+  <!-- Screen -->
+  <rect x="72" y="100" width="116" height="78" rx="4" fill="#0d0d2b"/>
+  <!-- Screen content lines -->
+  <rect x="82" y="112" width="60" height="6" rx="2" fill="#00cea8" opacity="0.6"/>
+  <rect x="82" y="124" width="90" height="5" rx="2" fill="#915EFF" opacity="0.4"/>
+  <rect x="82" y="135" width="75" height="5" rx="2" fill="#915EFF" opacity="0.4"/>
+  <rect x="82" y="146" width="50" height="5" rx="2" fill="#00cea8" opacity="0.3"/>
+  <rect x="82" y="157" width="85" height="5" rx="2" fill="#915EFF" opacity="0.3"/>
+  <!-- Monitor stand -->
+  <rect x="118" y="190" width="24" height="20" rx="2" fill="#2a2060" stroke="#00cea8" stroke-width="1.5"/>
+  <rect x="98" y="208" width="64" height="8" rx="4" fill="#2a2060" stroke="#00cea8" stroke-width="1.5"/>
+  <!-- Label -->
+  <text x="130" y="240" text-anchor="middle" font-family="monospace" font-size="13" fill="#aaa">CLIENT</text>
+
+  <!-- Connection line with animated dots -->
+  <line x1="202" y1="140" x2="318" y2="140" stroke="#00cea8" stroke-width="2" stroke-dasharray="8 5"/>
+
+  <!-- Arrow right -->
+  <polygon points="298,133 318,140 298,147" fill="#00cea8"/>
+  <!-- Arrow left -->
+  <polygon points="222,133 202,140 222,147" fill="#915EFF"/>
+
+  <!-- Data packets -->
+  <rect x="240" y="122" width="22" height="10" rx="3" fill="#00cea8" opacity="0.85"/>
+  <rect x="268" y="148" width="22" height="10" rx="3" fill="#915EFF" opacity="0.85"/>
+
+  <!-- TCP/IP label -->
+  <text x="250" y="112" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">TCP / IP</text>
+
+  <!-- Bottom label -->
+  <text x="250" y="310" text-anchor="middle" font-family="monospace" font-size="14" fill="#555">Client — Server Communication</text>
+</svg>

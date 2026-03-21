@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
+  <rect width="500" height="350" rx="16" fill="#1d1836"/>
+
+  <!-- Browser window -->
+  <rect x="40" y="40" width="420" height="260" rx="12" fill="#111130" stroke="#2a2060" stroke-width="2"/>
+  <!-- Browser bar -->
+  <rect x="40" y="40" width="420" height="36" rx="12" fill="#2a2060"/>
+  <rect x="40" y="64" width="420" height="12" fill="#2a2060"/>
+  <!-- Browser dots -->
+  <circle cx="64" cy="58" r="6" fill="#915EFF" opacity="0.8"/>
+  <circle cx="84" cy="58" r="6" fill="#00cea8" opacity="0.6"/>
+  <circle cx="104" cy="58" r="6" fill="#444" opacity="0.8"/>
+  <!-- URL bar -->
+  <rect x="130" y="49" width="250" height="18" rx="9" fill="#0d0d2b"/>
+  <text x="255" y="62" text-anchor="middle" font-family="monospace" font-size="9" fill="#555">ranjot-sandhu.dev</text>
+
+  <!-- Navbar inside browser -->
+  <rect x="40" y="76" width="420" height="28" fill="#13112a"/>
+  <text x="72" y="94" font-family="monospace" font-size="9" fill="#915EFF" font-weight="bold">RSS</text>
+  <text x="95" y="94" font-family="monospace" font-size="9" fill="#aaa">Ranjot Sandhu</text>
+  <text x="340" y="94" font-family="monospace" font-size="9" fill="#666">About</text>
+  <text x="375" y="94" font-family="monospace" font-size="9" fill="#666">Work</text>
+  <text x="408" y="94" font-family="monospace" font-size="9" fill="#666">Contact</text>
+
+  <!-- Hero text area -->
+  <text x="70" y="135" font-family="monospace" font-size="11" fill="#888">Hi, I'm</text>
+  <text x="70" y="158" font-family="monospace" font-size="20" fill="#fff" font-weight="bold">Ranjot</text>
+  <text x="70" y="180" font-family="monospace" font-size="20" fill="#915EFF" font-weight="bold">Sandhu</text>
+  <text x="70" y="202" font-family="monospace" font-size="10" fill="#00cea8">AI Researcher<tspan fill="#915EFF">|</tspan></text>
+
+  <!-- 3D Computer mockup (right side) -->
+  <!-- Monitor -->
+  <rect x="290" y="110" width="130" height="90" rx="6" fill="#2a2060" stroke="#00cea8" stroke-width="1.5"/>
+  <rect x="298" y="118" width="114" height="74" rx="3" fill="#0d0d2b"/>
+  <!-- 3D cube on screen -->
+  <polygon points="340,135 370,125 370,155 340,165" fill="#915EFF" opacity="0.3"/>
+  <polygon points="340,135 370,125 385,138 355,148" fill="#915EFF" opacity="0.5"/>
+  <polygon points="355,148 385,138 385,168 355,178" fill="#915EFF" opacity="0.2"/>
+  <line x1="340" y1="135" x2="370" y2="125" stroke="#915EFF" stroke-width="1.5"/>
+  <line x1="370" y1="125" x2="385" y2="138" stroke="#915EFF" stroke-width="1.5"/>
+  <line x1="385" y1="138" x2="355" y2="148" stroke="#915EFF" stroke-width="1.5"/>
+  <line x1="355" y1="148" x2="340" y2="135" stroke="#915EFF" stroke-width="1.5"/>
+  <line x1="370" y1="125" x2="370" y2="155" stroke="#00cea8" stroke-width="1.5" opacity="0.6"/>
+  <line x1="385" y1="138" x2="385" y2="168" stroke="#00cea8" stroke-width="1.5" opacity="0.6"/>
+  <line x1="340" y1="165" x2="370" y2="155" stroke="#00cea8" stroke-width="1.5" opacity="0.6"/>
+  <line x1="370" y1="155" x2="385" y2="168" stroke="#00cea8" stroke-width="1.5" opacity="0.6"/>
+  <!-- Monitor stand -->
+  <rect x="345" y="200" width="20" height="12" rx="2" fill="#2a2060" stroke="#00cea8" stroke-width="1"/>
+  <rect x="332" y="210" width="46" height="6" rx="3" fill="#2a2060" stroke="#00cea8" stroke-width="1"/>
+
+  <!-- Neural network dots (background) -->
+  <circle cx="100" cy="240" r="3" fill="#00cea8" opacity="0.4"/>
+  <circle cx="140" cy="225" r="3" fill="#00cea8" opacity="0.4"/>
+  <circle cx="180" cy="245" r="3" fill="#00cea8" opacity="0.4"/>
+  <circle cx="220" cy="230" r="3" fill="#00cea8" opacity="0.4"/>
+  <circle cx="260" cy="248" r="3" fill="#00cea8" opacity="0.4"/>
+  <line x1="100" y1="240" x2="140" y2="225" stroke="#00cea8" stroke-width="1" opacity="0.2"/>
+  <line x1="140" y1="225" x2="180" y2="245" stroke="#00cea8" stroke-width="1" opacity="0.2"/>
+  <line x1="180" y1="245" x2="220" y2="230" stroke="#00cea8" stroke-width="1" opacity="0.2"/>
+  <line x1="220" y1="230" x2="260" y2="248" stroke="#00cea8" stroke-width="1" opacity="0.2"/>
+
+  <!-- Tech badges bottom -->
+  <rect x="50" y="270" width="60" height="18" rx="4" fill="#2a2060" stroke="#00cea8" stroke-width="1"/>
+  <text x="80" y="282" text-anchor="middle" font-family="monospace" font-size="8" fill="#00cea8">React</text>
+  <rect x="118" y="270" width="70" height="18" rx="4" fill="#2a2060" stroke="#915EFF" stroke-width="1"/>
+  <text x="153" y="282" text-anchor="middle" font-family="monospace" font-size="8" fill="#915EFF">Three.js</text>
+  <rect x="196" y="270" width="76" height="18" rx="4" fill="#2a2060" stroke="#00cea8" stroke-width="1"/>
+  <text x="234" y="282" text-anchor="middle" font-family="monospace" font-size="8" fill="#00cea8">Tailwind CSS</text>
+
+  <!-- Bottom label -->
+  <text x="250" y="318" text-anchor="middle" font-family="monospace" font-size="13" fill="#555">3D Portfolio Website</text>
+</svg>
