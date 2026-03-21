@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Computer Science graduate (Wilfrid Laurier University, August 2026) with a minor in UI Design — I build at the intersection of AI, software engineering, and reliability. Through internships at TCS (TD Bank) and Reality AI Lab, I've shipped production-grade AI models, automated testing pipelines, and full-stack applications used by real users. I'm fluent in Python, Java, and JavaScript, and I bring a strong foundation in machine learning, data science, and site reliability tooling. I design with the user in mind, engineer for scale, and move fast without breaking things. My areas of focus below —
+        Computer Science graduate from Wilfrid Laurier University (August 2026) with a minor in UI Design, specializing in artificial intelligence, software engineering, and site reliability. Through internships at Tata Consultancy Services (TD Bank) and Reality AI Lab, I have delivered production-grade AI models, automated testing pipelines, and full-stack applications in real-world environments. Proficient in Python, Java, and JavaScript, with a strong foundation in machine learning, data science, and reliability engineering. I approach every problem with a user-first mindset, a focus on scalable design, and a commitment to high-quality delivery — and I'm passionate about pushing the boundaries of what AI can build, automate, and solve. My areas of focus below —
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
