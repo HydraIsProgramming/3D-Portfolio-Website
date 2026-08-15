@@ -1,14 +1,17 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState, lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+const EarthCanvas = lazy(() => import("./canvas/Earth"));
+
 const Contact = () => {
   const formRef = useRef();
+  const visualRef = useRef();
+  const [showEarth, setShowEarth] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -18,6 +21,19 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState(null); // { type: 'success' | 'error', message: string }
   const [errors, setErrors] = useState({});
+
+  useEffect(() => {
+    const node = visualRef.current;
+    if (!node) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setShowEarth(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: "350px" });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -46,6 +62,12 @@ const Contact = () => {
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
+      return;
+    }
+
+    const emailConfig = [import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, import.meta.env.VITE_EMAILJS_PUBLIC_KEY];
+    if (emailConfig.some((value) => !value || value.startsWith("your_"))) {
+      setStatus({ type: "error", message: "Email delivery is still being connected. Please email me directly at 00ranjotsandhu@gmail.com." });
       return;
     }
 
@@ -90,6 +112,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
+        <a href="mailto:00ranjotsandhu@gmail.com" className="inline-flex mt-5 text-[#00cea8] hover:text-white transition-colors">00ranjotsandhu@gmail.com ↗</a>
 
         <form
           ref={formRef}
@@ -143,7 +166,7 @@ const Contact = () => {
           </label>
 
           {status && (
-            <p
+            <p role="status" aria-live="polite"
               className={`text-sm font-medium ${
                 status.type === "success" ? "text-green-400" : "text-red-400"
               }`}
@@ -163,10 +186,11 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
+        ref={visualRef}
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas />
+        {showEarth ? <Suspense fallback={<div className="h-full grid place-items-center text-secondary">Loading Earth…</div>}><EarthCanvas /></Suspense> : <div className="h-full rounded-2xl border border-white/5 bg-gradient-to-br from-[#15102c] to-[#080617]" />}
       </motion.div>
     </div>
   );

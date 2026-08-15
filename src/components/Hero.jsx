@@ -1,17 +1,15 @@
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import NeuralBackground from "./NeuralBackground";
 
+const ComputersCanvas = lazy(() => import("./canvas/Computers"));
+
 const ROLES = [
-  "Machine Learning Engineer",
-  "AI Researcher",
-  "Data Scientist",
-  "Software Engineer",
-  "Full Stack Developer",
-  "Site Reliability Engineer",
+  "Full-stack products",
+  "Machine learning experiments",
+  "Reliable systems",
 ];
 
 const useTypewriter = (words, typingSpeed = 80, deletingSpeed = 40, pause = 1800) => {
@@ -43,6 +41,16 @@ const useTypewriter = (words, typingSpeed = 80, deletingSpeed = 40, pause = 1800
 
 const Hero = () => {
   const role = useTypewriter(ROLES);
+  const [show3D, setShow3D] = useState(false);
+
+  useEffect(() => {
+    const smallScreen = window.matchMedia("(max-width: 767px)").matches;
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!smallScreen && !reducedMotion) {
+      const timer = window.setTimeout(() => setShow3D(true), 150);
+      return () => window.clearTimeout(timer);
+    }
+  }, []);
 
   return (
     <section className={`relative w-full h-screen mx-auto overflow-hidden`}>
@@ -60,15 +68,21 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ranjot Sandhu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Building intelligent systems & AI-driven solutions
+            Software engineer building reliable full-stack and AI-powered products
           </p>
           <p className={`${styles.heroSubText} mt-1 text-[#915EFF]`}>
             {role}<span className="animate-pulse">|</span>
           </p>
+          <div className="mt-8 flex flex-wrap gap-3 relative z-10">
+            <a href="#projects" className="hero-button hero-button-primary">Explore projects</a>
+            <a href="/resume/Ranjot-Sandhu-Resume.pdf" download="Ranjot-Sandhu-Resume.pdf" className="hero-button">Download résumé ↓</a>
+            <a href="#contact" className="hero-button">Contact me</a>
+            <a href="https://github.com/HydraIsProgramming" target="_blank" rel="noreferrer" className="hero-button">GitHub ↗</a>
+          </div>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {show3D && <Suspense fallback={<div className="absolute inset-0 flex items-center justify-center text-secondary">Loading 3D workspace…</div>}><ComputersCanvas /></Suspense>}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

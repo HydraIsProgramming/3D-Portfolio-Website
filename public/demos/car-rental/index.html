@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Interactive browser demo of a Java car-rental pricing system."
+    />
+    <title>Prestige Rentals — Quote Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#">PRESTIGE<span>.</span></a
+      ><span class="badge">Portfolio demo</span>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">Rental quote studio</p>
+        <h1>Prestige Rentals <em>Quote Studio</em></h1>
+        <p>
+          Configure a vehicle and get a transparent estimate instantly. The
+          pricing engine mirrors the original Java coursework.
+        </p>
+        <div class="steps" aria-label="Quote progress">
+          <span class="active"><b>1</b> Vehicle</span><span><b>2</b> Trip details</span
+          ><span><b>3</b> Confirm quote</span>
+        </div>
+      </section>
+      <section class="builder">
+        <div class="builder-head"><div><p class="eyebrow">Step 1 · Select your class</p><h2>What would you like to drive?</h2></div><span class="instant"><i></i> Estimate updates live</span></div>
+        <div class="vehicles" id="vehicles" aria-label="Vehicle type"></div>
+        <form id="quote-form">
+          <div class="form-heading"><div><p class="eyebrow">Step 2</p><h2>Plan your trip</h2></div><span>All fields required</span></div>
+          <div class="form-grid">
+          <div class="field">
+            <label for="days">Rental duration</label>
+            <div class="input-unit">
+              <input
+                id="days"
+                type="number"
+                min="1"
+                max="365"
+                value="5"
+                required
+              /><span>days</span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="miles">Expected mileage</label>
+            <div class="input-unit">
+              <input
+                id="miles"
+                type="number"
+                min="1"
+                value="650"
+                required
+              /><span>miles</span>
+            </div>
+          </div>
+          </div>
+          <div class="field">
+            <label for="name">Driver name</label
+            ><input id="name" value="Alex Morgan" maxlength="60" required />
+          </div>
+          <div class="field">
+            <label for="license">Licence number</label
+            ><input id="license" value="D1234-56789" maxlength="24" required />
+          </div>
+          <button type="submit">Review and confirm quote <span>→</span></button>
+        </form>
+        <aside class="quote" aria-live="polite">
+          <div class="quote-heading"><p class="eyebrow">Your estimate</p><span>CAD</span></div>
+          <h2 id="total">$300.00</h2>
+          <p id="vehicle-label">Sedan · 5 days</p>
+          <div class="price-note"><span id="per-day">$60/day</span><span>Instant estimate</span></div>
+          <hr />
+          <dl>
+            <div>
+              <dt>Base rental</dt>
+              <dd id="daily">$60 × 5</dd>
+            </div>
+            <div>
+              <dt>Included mileage</dt>
+              <dd id="included">2,000 mi</dd>
+            </div>
+            <div>
+              <dt>Extra mileage</dt>
+              <dd id="extra">$0.00</dd>
+            </div>
+          </dl>
+          <div class="mileage"><div><span>Mileage allowance used</span><strong id="mileage-percent">33%</strong></div><div class="meter"><i id="mileage-bar"></i></div><small id="mileage-note">1,350 miles remain included</small></div>
+          <p class="fine">
+            No payment required. Taxes and optional insurance are calculated at pickup.
+          </p>
+        </aside>
+      </section>
+      <section class="case-study"><p class="eyebrow">Engineering case study</p><div><h2>Desktop business logic,<br>rebuilt for the web.</h2><p>The quote engine preserves the six rate schedules and mileage rules from the Java service while the interface adds immediate feedback, responsive layout, semantic controls, and accessible confirmation.</p></div><div class="facts"><article><strong>6</strong><span>vehicle rate plans</span></article><article><strong>$0.25</strong><span>per excess mile</span></article><article><strong>0</strong><span>backend dependencies</span></article></div></section>
+    </main>
+    <dialog id="confirmation">
+      <button class="close" aria-label="Close">×</button>
+      <p class="check">✓</p>
+      <p class="eyebrow">Quote ready</p>
+      <h2>Your drive is mapped out.</h2>
+      <p id="summary"></p>
+      <div class="confirmation-total">
+        <span>Estimated total</span><strong id="modal-total"></strong>
+      </div>
+      <button class="done">Start another quote</button>
+    </dialog>
+    <footer>
+      <span>Original Java logic → browser experience</span
+      ><a href="https://github.com/HydraIsProgramming/Car-Rental-Interface"
+        >View source ↗</a
+      >
+    </footer>
+    <script>if(new URLSearchParams(location.search).has('embed'))document.body.classList.add('embedded')</script><script src="app.js"></script>
+  </body>
+</html>

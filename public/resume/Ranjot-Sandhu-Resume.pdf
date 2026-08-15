@@ -1,0 +1,864 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Ranjot Sandhu Resume)
+/Author (Ranjot Sandhu)
+/Subject (Software Engineer Resume)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 14 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Annots [ 5 0 R 6 0 R 7 0 R ]
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 8 0 R
+/F1-0 9 0 R
+/F2 10 0 R
+/F2-0 11 0 R
+/F3 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Trans <<
+>>
+/Rotate 0
+/Contents 13 0 R
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linkedin\056com\057in\05700ranjotsandhu\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 327.8875 689.2 493.7055 699.4 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057HydraIsProgramming)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 176.8723 674.2 326.6168 684.4 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057ranjotsandhu\056com\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 369.4568 674.2 464.8948 684.4 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Length 7464
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 52.8 724.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 189.696 0 Td (Ranjot Sandhu) Tj T* -189.696 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 704.4 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 4 Tm /F3 10 Tf 14 TL 123.05 0 Td (Software Engineer | AI/ML Engineer | Full-Stack Developer) Tj T* -123.05 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 687.4 cm
+q
+BT 1 0 0 1 0 3.5 Tm 65.4945 0 Td 12 TL /F1 8.5 Tf 0 0 0 rg (00ranjotsandhu@gmail.com | 269-213-0348 | LinkedIn: ) Tj .066667 .333333 .8 rg (https://www.linkedin.com/in/00ranjotsandhu/) Tj T* -65.4945 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 672.4 cm
+q
+BT 1 0 0 1 0 3.5 Tm 94.30525 0 Td 12 TL /F1 8.5 Tf 0 0 0 rg (Github: ) Tj .066667 .333333 .8 rg (https://github.com/HydraIsProgramming) Tj 0 0 0 rg ( | Portfolio: ) Tj .066667 .333333 .8 rg (https://ranjotsandhu.com/) Tj T* -94.30525 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 657.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.5 Tm /F1 8.5 Tf 12 TL 159.6575 0 Td (Seeking office, hybrid, and remote roles in the US) Tj T* -159.6575 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 637.4 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (SUMMARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 634.4 cm
+q
+1 w
+1 J
+.121569 .219608 .392157 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 52.8 570.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (Computer Science student with a minor in UX Design and hands-on experience across software engineering, AI/ML, and site) Tj T* (reliability. Built machine learning models, automated monitoring workflows, observability dashboards, and user-facing) Tj T* (applications through roles at Tata Consultancy Services, Reality AI Lab, and Wilfrid Laurier University. Leverages a UX) Tj T* (foundation to make AI accessible and usable for humans, bridging advanced technical capabilities with intuitive,) Tj T* (human-centered design. Strong foundation in Python, Java, JavaScript, testing, and scalable system design.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 550.4 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 547.4 cm
+q
+1 w
+1 J
+.121569 .219608 .392157 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 52.8 530.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Software Engineer Intern | Tata Consultancy Services \(Client: TD Bank\) | June 2025 - August 2025) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 505.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Developed automated monitoring scripts and SRE tooling that reduced manual incident detection time by 50%+, improving) Tj T* (operational response for TD Bank infrastructure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 479.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Built and maintained Datadog dashboards to monitor production service health and support faster triage across shared) Tj T* (banking platforms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 454.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Collaborated with software and infrastructure teams in an agile environment to deliver reliability improvements for) Tj T* (production systems.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 428.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Produced technical documentation, sprint updates, and operational handoff material to support maintainability and) Tj T* (stakeholder visibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 411.9 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Student Research Assistant | Wilfrid Laurier University | September 2025 - Present) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 386.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Designed and implemented a predictive machine learning model for a real-world research problem, achieving about 85%) Tj T* (accuracy through feature engineering, hyperparameter tuning, and iterative evaluation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 361.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL -0.060562 Tw (\177 Built an arm-model research system to identify behavioral patterns in institutional datasets and generate actionable insights) Tj T* 0 Tw (for the research team.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 335.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Developed data preprocessing and exploratory analysis pipelines using Python, Pandas, and NumPy to clean, validate,) Tj T* (and structure training data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 310.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Communicated findings through technical documentation and faculty presentations, translating model outputs into) Tj T* (research-ready conclusions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 293.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Software Engineer Intern | Reality AI Lab | February 2025 - May 2025) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 268.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Developed AI training pipeline components using Python, TensorFlow, PyTorch, Pandas, and Scikit-learn to support model) Tj T* (training, evaluation, and validation workflows.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 242.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Performed QA on AI-integrated features using structured test cases, output validation, bug tracking, and regression testing) Tj T* (to improve model integration reliability.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 217.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Designed and iterated on product wireframes and UI components in Figma, helping connect AI functionality to clearer) Tj T* (user-facing workflows.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 191.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Worked across product and engineering tasks to improve training workflow quality, model output consistency, and release) Tj T* (readiness.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 171.9 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 168.9 cm
+q
+1 w
+1 J
+.121569 .219608 .392157 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 54 92.9 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 60 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Languages) Tj T* ET
+Q
+Q
+q
+1 0 0 1 252 60 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Frameworks / Libraries) Tj T* ET
+Q
+Q
+q
+1 0 0 1 0 48 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Python, Java, JavaScript, SQL, C, Swift) Tj T* ET
+Q
+Q
+q
+1 0 0 1 252 36 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (TensorFlow, PyTorch, Scikit-learn, React, Next.js, Node.js,) Tj T* (Pandas, NumPy, Matplotlib, SwiftUI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 0 24 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Cloud / DevOps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 252 24 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Tools) Tj T* ET
+Q
+Q
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Datadog, REST APIs, Monitoring and Observability,) Tj T* (Automation Scripting, SRE tooling, Supabase, PostgreSQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 252 12 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Postman, Fiddler, JMeter, Figma, Git, DataDog, Xcode) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+50 616.5 510 15 re
+f*
+0 0 0 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 52.8 620.5 Tm
+(Computer Science graduate with a minor in UX Design and hands\055on experience across software engineering\054 AI\057ML\054 and site) Tj
+T*
+ET
+1 1 1 rg
+n
+50 410.5 510 16 re
+f*
+0 0 0 rg
+BT
+/F2-0 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 52.8 414.2 Tm
+(Research Project Developer \174 Wilfrid Laurier University \174 September 2025 \055 Present) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 612 792 ]
+/Trans <<
+>>
+/Rotate 0
+/Resources <<
+/Font <<
+/F1 8 0 R
+/F1-0 15 0 R
+/F2 10 0 R
+/F2-0 16 0 R
+/F3 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Contents 17 0 R
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/Length 7865
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 52.8 734.4 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 731.4 cm
+q
+1 w
+1 J
+.121569 .219608 .392157 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 52.8 714.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Wilfrid Laurier University - Waterloo, Ontario, Canada) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 701.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Bachelor of Computer Science, Minor in UX Design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 686.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Expected Graduation:) Tj /F1 9 Tf ( August 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 666.4 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (ADDITIONAL EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 663.4 cm
+q
+1 w
+1 J
+.121569 .219608 .392157 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 52.8 646.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Student Proctor and Teaching Assistant | Wilfrid Laurier University | January 2024 - Present) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 633.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Supported exam setup, student check-in, and technical troubleshooting for university assessments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 619.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Coordinated with faculty on exam-day logistics, classroom readiness, and technical requirements.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 606.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Helped create instructional materials including lecture slides and course content.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 592.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Assisted with grading assignments and exams in accordance with course guidelines.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 572.9 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 569.9 cm
+q
+1 w
+1 J
+.121569 .219608 .392157 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 52.8 552.9 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Bookshelf | ) Tj .121569 .219608 .392157 rg (Swift, SwiftUI, Supabase, PostgreSQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 540.9 cm
+q
+.066667 .333333 .8 rg
+BT 1 0 0 1 0 3.5 Tm /F3 8.5 Tf 12 TL (/HydraIsProgramming/Bookshelf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 515.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Built a multi-tenant iOS app for retail clerks to track scratch-off lottery ticket inventory and manage end-of-shift accounting) Tj T* (across multiple store locations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 490.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Designed role-based access control \(owner vs. clerk\) enforced via PostgreSQL Row Level Security across 16 tables, with) Tj T* (Supabase handling auth and data \227 no custom app server.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 464.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Engineered a multi-path barcode scanning system supporting BLE \(Socket Mobile SDK\), HID-keyboard Bluetooth) Tj T* (scanners, and AVFoundation camera scanning with Vision framework OCR fallback.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 439.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Built shift lifecycle RPCs \(start, end, mid-shift book swap, force-close\) with automated sales reconciliation and per-book) Tj T* (inventory state tracking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 422.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Arm Model | ) Tj .121569 .219608 .392157 rg (Python, R, NumPy, Tkinter, Matplotlib) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 410.4 cm
+q
+.066667 .333333 .8 rg
+BT 1 0 0 1 0 3.5 Tm /F3 8.5 Tf 12 TL (/HydraIsProgramming/ARM-Model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 397.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Trained a reinforcement learning agent using PPO and SAC to control a robotic arm simulation for daily-living tasks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 383.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Designed reward functions and policy logic that achieved 90%+ policy confidence against defined task benchmarks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 370.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Built as a foundational system for future healthcare exoskeleton applications.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 353.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (EV Infrastructure AI Planning Tool | ) Tj .121569 .219608 .392157 rg (Python, Scikit-learn, Pandas, Matplotlib) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 329.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Built a forecasting tool using historical data to predict Level 2 EV charger demand for residential buildings over a 5-10 year) Tj T* (period.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 315.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Validated predictions against regional EV adoption trends and held-out test data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 302.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Produced planning outputs useful for infrastructure and cost forecasting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 285.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (AI Stock Prediction Bot | ) Tj .121569 .219608 .392157 rg (Python, TensorFlow, PyTorch, SQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 273.4 cm
+q
+.066667 .333333 .8 rg
+BT 1 0 0 1 0 3.5 Tm /F3 8.5 Tf 12 TL (/HydraIsProgramming/Stock_Trading_Bot-AI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 260.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Developed a backtesting framework using historical trade data to evaluate strategies across equities and commodities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 246.9 cm
+q
+BT 1 0 0 1 12 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Generated reports including P) Tj (&L;) Tj (, opportunity cost, and alpha.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 233.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Benchmarked model performance against market indices.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 216.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (3D Portfolio Website | ) Tj .121569 .219608 .392157 rg (JavaScript, React) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 204.4 cm
+q
+.066667 .333333 .8 rg
+BT 1 0 0 1 0 3.5 Tm /F3 8.5 Tf 12 TL (https://ranjot-sandhu.netlify.app/ | /HydraIsProgramming/3D-Portfolio-Website) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 191.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 3 Tm /F1 9 Tf 12 TL (\177 Designed and built an interactive 3D portfolio website to showcase projects, skills, and experience.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 174.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Client-Server Connection Project | ) Tj .121569 .219608 .392157 rg (Python) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 162.4 cm
+q
+.066667 .333333 .8 rg
+BT 1 0 0 1 0 3.5 Tm /F3 8.5 Tf 12 TL (/HydraIsProgramming/Client-Server-Assignment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 137.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Implemented a socket-based client-server system supporting bidirectional messaging and file transfer through the) Tj T* (command line.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 120.4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 12 TL /F2 9.5 Tf 0 0 0 rg (Car Rental Service UI | ) Tj .121569 .219608 .392157 rg (Java) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 108.4 cm
+q
+.066667 .333333 .8 rg
+BT 1 0 0 1 0 3.5 Tm /F3 8.5 Tf 12 TL (/HydraIsProgramming/Car-Rental-Interface) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 83.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 12 15 Tm /F1 9 Tf 12 TL (\177 Designed a booking application based on time, distance, and user-defined inputs, exploring optimization ideas for rental) Tj T* (and ride-hailing workflows.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+50 685.5 180 16 re
+f*
+0 0 0 rg
+BT
+/F2-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 52.8 689.5 Tm
+(Graduated\072) Tj
+T*
+ET
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 104.806 689.5 Tm
+(August 2026) Tj
+T*
+ET
+1 1 1 rg
+n
+50 644 520 16 re
+f*
+0 0 0 rg
+BT
+/F2-0 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 52.8 647.8 Tm
+(Student Proctor and Teaching Assistant \174 Wilfrid Laurier University \174 January 2024 \055 August 2026) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000144 00000 n 
+0000000210 00000 n 
+0000000259 00000 n 
+0000000536 00000 n 
+0000000749 00000 n 
+0000000947 00000 n 
+0000001133 00000 n 
+0000001240 00000 n 
+0000001347 00000 n 
+0000001460 00000 n 
+0000001573 00000 n 
+0000001689 00000 n 
+0000009206 00000 n 
+0000009467 00000 n 
+0000009575 00000 n 
+0000009688 00000 n 
+trailer
+<<
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+17606
+%%EOF

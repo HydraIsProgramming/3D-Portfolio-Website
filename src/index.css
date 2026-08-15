@@ -13,6 +13,25 @@
   color-scheme: dark;
 }
 
+:focus-visible { outline: 3px solid #00cea8; outline-offset: 4px; }
+.hero-button { display:inline-flex; align-items:center; justify-content:center; padding:.8rem 1.25rem; border:1px solid rgba(255,255,255,.24); border-radius:999px; color:white; font-weight:600; background:rgba(5,8,22,.65); backdrop-filter:blur(10px); transition:.2s ease; }
+.hero-button:hover { transform:translateY(-2px); background:rgba(255,255,255,.1); }
+.hero-button-primary { background:#915eff; border-color:#915eff; }
+.case-label { color:#00cea8; text-transform:uppercase; letter-spacing:.18em; font-size:.72rem; font-weight:700; margin-bottom:1rem; }
+.case-title { color:white; font-size:1.3rem; line-height:1.5; font-weight:700; }
+.case-list { color:#aaa6c3; display:grid; gap:.8rem; line-height:1.6; }
+.case-list li { position:relative; padding-left:1.2rem; }
+.case-list li::before { content:""; width:.4rem; height:.4rem; border-radius:50%; background:#915eff; position:absolute; left:0; top:.55rem; }
+.metric-range { accent-color:#915eff; }
+.metric-card { display:flex; flex-direction:column; justify-content:center; min-height:180px; padding:2rem; border-radius:1.5rem; background:linear-gradient(135deg,#151030,#21194a); border:1px solid rgba(255,255,255,.07); }
+.metric-card span { color:#00cea8; text-transform:uppercase; letter-spacing:.16em; font-size:.7rem; font-weight:700; }
+.metric-card strong { color:white; font-size:clamp(2rem,5vw,4rem); margin:.35rem 0; }
+.metric-card small { color:#aaa6c3; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior:auto !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

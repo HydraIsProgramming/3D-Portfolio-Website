@@ -21,8 +21,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import laurier from "./company/laurier.png";
 import tutor from "./company/tutor.png";
 import tdtcs from "./company/TDTCS.png";
@@ -33,13 +31,12 @@ import dataScience from "./ai-icons/data-science.svg";
 import neuralNetwork from "./ai-icons/neural-network.svg";
 import mlops from "./ai-icons/mlops.svg";
 
-import java from "./java.png";
-import trade from "./trade.png";
-import website from "./website.png";
 import clientserver from "./clientserver.svg";
 import carrent from "./carrent.svg";
 import tradingbot from "./tradingbot.svg";
 import portfolio3d from "./portfolio3d.svg";
+import allornothing from "./allornothing.svg";
+import eileens from "./eileens.svg";
 
 export {
   logo,
@@ -63,8 +60,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   laurier,
   tutor,
   tdtcs,
@@ -73,11 +68,10 @@ export {
   dataScience,
   neuralNetwork,
   mlops,
-  java,
-  trade,
-  website,
   clientserver,
   carrent,
   tradingbot,
   portfolio3d,
+  allornothing,
+  eileens,
 };

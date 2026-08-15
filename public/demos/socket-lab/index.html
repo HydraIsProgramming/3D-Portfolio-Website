@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Interactive TCP client-server protocol visualizer."
+    />
+    <title>SocketLab — Client/Server Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div><span class="signal"></span><strong>SOCKETLAB</strong></div>
+      <span>TCP / PORT 12345</span>
+    </header>
+    <main>
+      <section class="hero">
+        <p>Interactive systems demo</p>
+        <h1>See the conversation<br /><span>behind the connection.</span></h1>
+        <div class="controls">
+          <button id="server-toggle">Start server</button
+          ><button id="guided">Run guided demo</button
+          ><button id="add-client" disabled>+ Simulate endpoint</button
+          ><button id="reset">Reset</button>
+        </div>
+      </section>
+      <section class="workspace">
+        <aside>
+          <p class="label">Server state</p>
+          <div class="server-card">
+            <div class="server-icon">⌁</div>
+            <h2>TCP Server</h2>
+            <p id="address">127.0.0.1:12345</p>
+            <span id="server-status">Offline</span>
+          </div>
+          <dl>
+            <div>
+              <dt>Simulated endpoints</dt>
+              <dd id="client-count">0 / 3</dd>
+            </div>
+            <div>
+              <dt>Packets handled</dt>
+              <dd id="packet-count">0</dd>
+            </div>
+            <div>
+              <dt>Protocol</dt>
+              <dd>TCP</dd>
+            </div>
+            <div>
+              <dt>Buffer</dt>
+              <dd>1,024 bytes</dd>
+            </div>
+          </dl>
+          <p class="label">Shared files</p>
+          <ul class="files">
+            <li>architecture.pdf <span>84 KB</span></li>
+            <li>sample-data.csv <span>12 KB</span></li>
+          </ul>
+        </aside>
+        <section class="network">
+          <div class="server-node">
+            SERVER
+            <div class="pulse"></div>
+          </div>
+          <div id="connections" class="connections"></div>
+          <p class="hint" id="hint">
+            Start the server to begin the simulation.
+          </p>
+        </section>
+        <section class="terminal">
+          <div class="terminal-head">
+            <span>EVENT STREAM</span><button id="clear">Clear</button>
+          </div>
+          <div id="logs" class="logs">
+            <p class="muted">Waiting for server…</p>
+          </div>
+          <form id="command-form">
+            <select id="client-select" aria-label="Simulated endpoint"></select
+            ><input
+              id="command"
+              placeholder="Send a protocol command"
+              disabled
+            /><button disabled>Send ↵</button>
+          </form>
+          <div class="quick">
+            <span>Commands</span><button data-command="status">status</button
+            ><button data-command="list">list</button
+            ><button data-command="get architecture.pdf">get file</button
+            ><button data-command="hello server">message</button
+            ><button data-command="exit">exit</button>
+          </div>
+        </section>
+      </section>
+      <section class="case-study"><p class="label">Under the hood</p><div><h2>A visual model of bounded TCP concurrency.</h2><p>The original Python server uses a thread per connection, a lock-protected cache, a fixed backlog, and command-based file retrieval. Every endpoint in this browser demo is simulated.</p></div><ol><li><b>01</b><span><strong>Accept</strong>TCP handshake establishes a session.</span></li><li><b>02</b><span><strong>Dispatch</strong>A worker thread handles each connection.</span></li><li><b>03</b><span><strong>Respond</strong>Commands return status, files, or ACKs.</span></li></ol></section>
+    </main>
+    <footer>
+      <span>A browser simulation of the original Python socket protocol</span
+      ><a href="https://github.com/HydraIsProgramming/Client-Server-Assignment"
+        >View Python source ↗</a
+      >
+    </footer>
+    <script>if(new URLSearchParams(location.search).has('embed'))document.body.classList.add('embedded')</script><script src="app.js"></script>
+  </body>
+</html>

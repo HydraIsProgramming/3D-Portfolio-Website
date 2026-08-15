@@ -1,110 +1,21 @@
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 
-const SKILLS = [
-  {
-    category: "AI / Machine Learning",
-    color: "#915EFF",
-    items: [
-      { name: "Python", level: 92 },
-      { name: "TensorFlow / Keras", level: 80 },
-      { name: "PyTorch", level: 75 },
-      { name: "scikit-learn", level: 85 },
-    ],
-  },
-  {
-    category: "Data & Research",
-    color: "#00cea8",
-    items: [
-      { name: "Data Analysis (Pandas / NumPy)", level: 88 },
-      { name: "Computer Vision", level: 72 },
-      { name: "Natural Language Processing", level: 70 },
-      { name: "Statistical Modelling", level: 78 },
-    ],
-  },
-  {
-    category: "Software Engineering",
-    color: "#915EFF",
-    items: [
-      { name: "React / Next.js", level: 85 },
-      { name: "Java", level: 82 },
-      { name: "Node.js / REST APIs", level: 80 },
-      { name: "SQL / Databases", level: 75 },
-    ],
-  },
-  {
-    category: "Site Reliability Engineering",
-    color: "#00cea8",
-    items: [
-      { name: "JMeter", level: 78 },
-      { name: "Datadog", level: 74 },
-      { name: "Postman", level: 88 },
-      { name: "Fiddler", level: 72 },
-    ],
-  },
+const tracks = [
+  { number: "01", title: "Full-stack product engineering", tools: "React · Next.js · JavaScript · APIs · SQL · Authentication", evidence: "Build and operate data-backed products with user accounts, listings, team workflows, subscriptions, bookings, and production-facing interfaces.", proof: "All or Nothing · 3D Portfolio" },
+  { number: "02", title: "Client & commerce delivery", tools: "E-commerce · Payments · Responsive UI · SEO · Deployment", evidence: "Lead freelance projects from discovery and scope through design, implementation, testing, launch, documentation, and ongoing support.", proof: "Blue Moon Development · Eileen's Toffee" },
+  { number: "03", title: "AI & machine learning", tools: "Python · pandas · scikit-learn · TensorFlow · Gradio", evidence: "Design reproducible experiments with time-ordered evaluation, engineered features, model comparison, baselines, backtesting, and visible limitations.", proof: "MarketSignal · University research" },
+  { number: "04", title: "Systems & networking", tools: "TCP/IP · Sockets · Concurrency · Java · Python", evidence: "Implemented and visualized a multithreaded TCP protocol with bounded connection capacity, synchronized state, command routing, acknowledgements, and file retrieval.", proof: "SocketLab · Java coursework" },
+  { number: "05", title: "Reliability & performance", tools: "Datadog · Dynatrace · JMeter · Postman · Testing", evidence: "Contributed to performance pipelines, workflow testing, observability, technical reporting, defect resolution, and cross-team enterprise delivery.", proof: "TCS / TD Bank · Reality AI Lab" },
+  { number: "06", title: "Product & experience design", tools: "Figma · Tailwind · Accessibility · Three.js · Motion", evidence: "Translate business goals and technical rules into responsive, accessible experiences while balancing visual polish, usability, and performance.", proof: "3D Portfolio · Client work" },
 ];
 
-const SkillBar = ({ name, level, color, index }) => (
-  <motion.div
-    initial={{ opacity: 0, x: -40 }}
-    whileInView={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5, delay: index * 0.08 }}
-    viewport={{ once: true }}
-    className="mb-4"
-  >
-    <div className="flex justify-between mb-1">
-      <span className="text-white text-[14px] font-medium">{name}</span>
-      <span className="text-secondary text-[13px]">{level}%</span>
-    </div>
-    <div className="w-full bg-[#1a1a2e] rounded-full h-2.5 overflow-hidden">
-      <motion.div
-        initial={{ width: 0 }}
-        whileInView={{ width: `${level}%` }}
-        transition={{ duration: 1, delay: index * 0.08 + 0.2, ease: "easeOut" }}
-        viewport={{ once: true }}
-        className="h-2.5 rounded-full"
-        style={{ background: `linear-gradient(90deg, ${color}99, ${color})` }}
-      />
-    </div>
-  </motion.div>
-);
-
-const Skills = () => {
-  return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I work with</p>
-        <h2 className={styles.sectionHeadText}>Skills & Proficiency</h2>
-      </motion.div>
-
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-        {SKILLS.map((group) => (
-          <div
-            key={group.category}
-            className="bg-[#1d1836] rounded-2xl p-6 shadow-card"
-          >
-            <h3
-              className="text-[17px] font-bold mb-5"
-              style={{ color: group.color }}
-            >
-              {group.category}
-            </h3>
-            {group.items.map((skill, i) => (
-              <SkillBar
-                key={skill.name}
-                name={skill.name}
-                level={skill.level}
-                color={group.color}
-                index={i}
-              />
-            ))}
-          </div>
-        ))}
-      </div>
-    </>
-  );
-};
+const Skills = () => <>
+  <motion.div variants={textVariant()}><p className={styles.sectionSubText}>Evidence over percentages</p><h2 className={styles.sectionHeadText}>Technical track.</h2></motion.div>
+  <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">Capabilities connected to live products, client delivery, technical demonstrations, and professional experience—so every claim has concrete evidence behind it.</p>
+  <div className="mt-12 border-t border-white/10">{tracks.map((track, index) => <motion.article key={track.title} variants={fadeIn("up", "spring", index * .08, .65)} className="grid md:grid-cols-[70px_1fr_1.25fr_.8fr] gap-4 md:gap-8 py-8 border-b border-white/10 items-start"><span className="text-[#915EFF] font-bold">{track.number}</span><div><h3 className="text-white text-xl font-bold">{track.title}</h3><p className="text-[#00cea8] text-sm mt-2">{track.tools}</p></div><p className="text-secondary leading-7">{track.evidence}</p><p className="text-white/70 text-sm md:text-right">{track.proof}</p></motion.article>)}</div>
+</>;
 
 export default SectionWrapper(Skills, "skills");
