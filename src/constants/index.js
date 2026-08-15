@@ -206,10 +206,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2024 - August 2026",
     points: [
-      "Supervising and monitoring students during exams to ensure academic integrity.",
-      "Helping students set up their exams. Ex. Importing their files and extracting them for submission.",
-      "Providing clear instructions and addressing student inquiries during exams.",
-      "Helping students with technical difficulties during computer written exams.",
+      "Supervised and monitored students during exams to ensure academic integrity.",
+      "Helped students prepare exam files and extract required materials for submission.",
+      "Provided clear instructions and addressed student questions during exams.",
+      "Resolved technical difficulties during computer-based examinations.",
     ],
   },
   {
@@ -324,7 +324,7 @@ const projects = [
     evidence: ["Chronological train/test split", "Multiple model comparison against a naive baseline", "Feature importance, technical signals, drawdown, and transparent backtest assumptions"],
     highlights: [{ value: "3", label: "forecasting models" }, { value: "8", label: "engineered features" }, { value: "4", label: "analysis views" }],
     tags: [{ name: "Python", color: "blue-text-gradient" }, { name: "scikit-learn", color: "green-text-gradient" }, { name: "Gradio", color: "pink-text-gradient" }],
-    image: tradingbot, demoUrl: "http://127.0.0.1:7860", demoKind: "embed",
+    image: tradingbot, demoUrl: "https://stock-trading-bot-ai.onrender.com", demoKind: "embed",
     source_code_link: "https://github.com/HydraIsProgramming/Stock_Trading_Bot-AI",
   },
   {

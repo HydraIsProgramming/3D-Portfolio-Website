@@ -124,6 +124,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
+              required
               name="name"
               value={form.name}
               onChange={handleChange}
@@ -139,6 +140,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Email</span>
             <input
               type="email"
+              required
               name="email"
               value={form.email}
               onChange={handleChange}
@@ -154,6 +156,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={7}
+              required
               name="message"
               value={form.message}
               onChange={handleChange}

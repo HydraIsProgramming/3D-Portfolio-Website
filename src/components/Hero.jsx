@@ -77,7 +77,8 @@ const Hero = () => {
             <a href="#projects" className="hero-button hero-button-primary">Explore projects</a>
             <a href="/resume/Ranjot-Sandhu-Resume.pdf" download="Ranjot-Sandhu-Resume.pdf" className="hero-button">Download résumé ↓</a>
             <a href="#contact" className="hero-button">Contact me</a>
-            <a href="https://github.com/HydraIsProgramming" target="_blank" rel="noreferrer" className="hero-button">GitHub ↗</a>
+            <a href="https://github.com/HydraIsProgramming" target="_blank" rel="noopener noreferrer" className="hero-button">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/00ranjotsandhu/" target="_blank" rel="noopener noreferrer" className="hero-button">LinkedIn ↗</a>
           </div>
         </div>
       </div>
