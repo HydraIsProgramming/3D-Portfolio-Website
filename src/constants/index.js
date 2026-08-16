@@ -256,7 +256,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "All or Nothing Esports", type: "Founder-built commercial platform",
+    name: "All or Nothing Esports", type: "Live revenue-generating product",
     description: "A live multi-game esports platform connecting competitors through teams, ladders, tournaments, subscriptions, and paid coaching.",
     longDescription: "A production esports business built and operated for real players—not a portfolio simulation. It brings competitive discovery, team formation, rankings, events, subscriptions, and bookable coaching into one branded platform.",
     problem: "Competitive players jump between Discord servers, spreadsheets, and disconnected services to find teams, enter events, track rankings, and book coaching.",
@@ -284,7 +284,7 @@ const projects = [
       { title: "Founder operations", text: "Product decisions connect directly to community feedback, monetization, and live-platform operations." }
     ],
     tags: [{ name: "Full Stack", color: "blue-text-gradient" }, { name: "Esports", color: "green-text-gradient" }, { name: "Product Growth", color: "pink-text-gradient" }],
-    image: allornothing, demoUrl: "https://allornothing.gg/", demoKind: "external", demoLabel: "Visit live platform",
+    image: allornothing, demoUrl: "https://allornothing.gg/", demoKind: "external", demoLabel: "Visit live platform", cardLabel: "View live product & metrics →",
   },
   {
     name: "Eileen's English Toffee", type: "Freelance client · E-commerce",
