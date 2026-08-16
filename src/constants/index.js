@@ -258,7 +258,11 @@ const projects = [
   {
     name: "All or Nothing Esports", type: "Live revenue-generating product",
     description: "A live multi-game esports platform connecting competitors through teams, ladders, tournaments, subscriptions, and paid coaching.",
-    longDescription: "A production esports business built and operated for real players—not a portfolio simulation. It brings competitive discovery, team formation, rankings, events, subscriptions, and bookable coaching into one branded platform.",
+    longDescription: "A live production esports business built and operated for real players. The running platform serves paying subscribers, processes coaching purchases, and generates recurring subscription and marketplace revenue.",
+    operatingStatus: {
+      label: "Operating software business",
+      detail: "Live production code · Paying subscribers · Subscription and coaching revenue",
+    },
     problem: "Competitive players jump between Discord servers, spreadsheets, and disconnected services to find teams, enter events, track rankings, and book coaching.",
     contributions: ["Founded, built, launched, and continue to operate the product", "Designed player listings, team discovery, ladders, tournaments, and coaching journeys", "Developed the subscription and coaching business model", "Manage the live community, product direction, and commercial experiments"],
     evidence: ["Live production platform at allornothing.gg", "Working player, team, tournament, ladder, and coaching surfaces", "Supports Rematch, Deadlock, and The Finals", "Real subscribers and completed coaching purchases"],

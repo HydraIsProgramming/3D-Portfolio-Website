@@ -46,6 +46,8 @@ const ProjectModal = ({ project, onClose }) => {
               {project.demoUrl && !isExternal && <a href={project.demoUrl} target="_blank" rel="noreferrer" className="px-3 py-3.5 text-secondary hover:text-white">Open demo in a new tab ↗</a>}
             </div>
 
+            {project.operatingStatus && <section className="px-6 py-6 sm:px-12 border-b border-[#ff5269]/30 bg-[#ff263f]/[0.08]"><div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"><div className="flex items-center gap-3"><span className="h-3 w-3 rounded-full bg-[#ff5269] shadow-[0_0_18px_#ff5269]" aria-hidden="true"/><strong className="text-white text-lg">{project.operatingStatus.label}</strong></div><p className="text-[#ff9baa] text-sm sm:text-right">{project.operatingStatus.detail}</p></div></section>}
+
             {showDemo && project.demoUrl && (
               <section className="px-4 py-6 sm:p-10 lg:p-12 border-b border-white/10">
                 <div className="flex flex-wrap justify-between gap-3 mb-5"><div><p className="case-label mb-1">Live product</p><h3 className="text-white text-xl sm:text-2xl font-bold">Explore {project.name}</h3></div><p className="text-secondary text-sm max-w-md sm:text-right">The demo is isolated from the portfolio and only loads when you request it.</p></div>
