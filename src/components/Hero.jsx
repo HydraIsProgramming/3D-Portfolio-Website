@@ -71,13 +71,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ranjot Sandhu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build full-stack products and AI systems, and I keep them running
+            Software engineer building full-stack products and AI systems
           </p>
           <p className={`${styles.heroSubText} mt-1 text-[#915EFF]`}>
             {role}<span className="animate-pulse">|</span>
           </p>
-          <p className="mt-4 text-white-100 text-[14px] sm:text-[16px] max-w-xl leading-6">
-            Looking for software engineering roles, in an office, hybrid, or fully remote. Based in Waterloo, Ontario.
+          <p className="mt-4 text-white-100 text-[14px] sm:text-[16px] max-w-2xl leading-6">
+            Looking for software engineering roles, in an office, hybrid, or fully remote
           </p>
           <div className="mt-8 flex flex-wrap gap-3 relative z-10">
             <a href="#projects" className="hero-button hero-button-primary">Explore projects</a>
