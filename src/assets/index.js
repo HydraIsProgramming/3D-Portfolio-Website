@@ -20,6 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import java from "./tech/java.svg";
+import swift from "./tech/swift.svg";
+import nextjs from "./tech/nextjs.svg";
+import postgresql from "./tech/postgresql.svg";
+import supabase from "./tech/supabase.svg";
+import tensorflow from "./tech/tensorflow.svg";
+import pytorch from "./tech/pytorch.svg";
+import pandas from "./tech/pandas.svg";
+import scikitlearn from "./tech/scikitlearn.svg";
 
 import laurier from "./company/laurier.png";
 import tutor from "./company/tutor.png";
@@ -37,6 +47,8 @@ import tradingbot from "./tradingbot.svg";
 import portfolio3d from "./portfolio3d.svg";
 import allornothing from "./allornothing.svg";
 import eileens from "./eileens.svg";
+import bookshelf from "./bookshelf.svg";
+import armmodel from "./armmodel.svg";
 
 export {
   logo,
@@ -60,6 +72,16 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  java,
+  swift,
+  nextjs,
+  postgresql,
+  supabase,
+  tensorflow,
+  pytorch,
+  pandas,
+  scikitlearn,
   laurier,
   tutor,
   tdtcs,
@@ -74,4 +96,6 @@ export {
   portfolio3d,
   allornothing,
   eileens,
+  bookshelf,
+  armmodel,
 };

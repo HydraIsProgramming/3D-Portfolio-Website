@@ -7,6 +7,9 @@ import NeuralBackground from "./NeuralBackground";
 const ComputersCanvas = lazy(() => import("./canvas/Computers"));
 
 const ROLES = [
+  "Software Engineer",
+  "AI/ML Engineer",
+  "Full-Stack Developer",
   "Full-stack products",
   "Machine learning experiments",
   "Reliable systems",
@@ -68,10 +71,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ranjot Sandhu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Software engineer building reliable full-stack and AI-powered products
+            I build full-stack products and AI systems, and I keep them running
           </p>
           <p className={`${styles.heroSubText} mt-1 text-[#915EFF]`}>
             {role}<span className="animate-pulse">|</span>
+          </p>
+          <p className="mt-4 text-white-100 text-[14px] sm:text-[16px] max-w-xl leading-6">
+            Looking for software engineering roles, in an office, hybrid, or fully remote. Based in Waterloo, Ontario.
           </p>
           <div className="mt-8 flex flex-wrap gap-3 relative z-10">
             <a href="#projects" className="hero-button hero-button-primary">Explore projects</a>

@@ -47,7 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Computer Science graduate from Wilfrid Laurier University (August 2026) with a minor in UI Design, specializing in artificial intelligence, software engineering, and site reliability. Through internships at Tata Consultancy Services (TD Bank) and Reality AI Lab, I have delivered production-grade AI models, automated testing pipelines, and full-stack applications in real-world environments. Proficient in Python, Java, and JavaScript, with a strong foundation in machine learning, data science, and reliability engineering. I approach every problem with a user-first mindset, a focus on scalable design, and a commitment to high-quality delivery — and I'm passionate about pushing the boundaries of what AI can build, automate, and solve. My areas of focus below —
+        I'm a software engineer who works across full-stack development, AI and machine learning, and site reliability. I finished my Computer Science degree at Wilfrid Laurier University in August 2026, with a minor in UX Design. At TD Bank, working through Tata Consultancy Services, I wrote monitoring scripts and SRE tooling that cut manual incident detection time by more than half. I built Datadog dashboards that several engineering teams used to triage problems, and I ran load and performance testing with JMeter and Dynatrace to catch bottlenecks before release.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.15, 1)}
+        className='mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        On the AI side, I have built predictive models that reached about 85% accuracy, and trained PPO and SAC reinforcement learning agents to over 90% policy confidence for robotic arm control in assistive healthcare research. I work in Python with TensorFlow, PyTorch, scikit-learn, pandas, and NumPy. I also run my own studio, Blue Moon Development, where I built and still operate a multi-game esports platform on Next.js, TypeScript, Supabase, and PostgreSQL. It signs players in with Discord OAuth and bills them through Stripe, and it reached 40 paying subscribers and $240 in monthly revenue in its first full month. I have also shipped a multi-tenant iOS app in Swift and SwiftUI, plus live client websites. Docker, CI/CD, pytest, QA, Agile, and deploying to Vercel, Netlify, and Render are all part of how I work. Right now I am looking for software engineering roles, in an office, hybrid, or fully remote. Here is where I focus:
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

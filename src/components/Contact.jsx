@@ -67,7 +67,7 @@ const Contact = () => {
 
     const emailConfig = [import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, import.meta.env.VITE_EMAILJS_PUBLIC_KEY];
     if (emailConfig.some((value) => !value || value.startsWith("your_"))) {
-      setStatus({ type: "error", message: "Email delivery is still being connected. Please email me directly at 00ranjotsandhu@gmail.com." });
+      setStatus({ type: "error", message: "This form is not connected yet. Please email me directly at 00ranjotsandhu@gmail.com." });
       return;
     }
 
@@ -90,7 +90,7 @@ const Contact = () => {
         setLoading(false);
         setStatus({
           type: "success",
-          message: "Thank you! I'll get back to you as soon as possible.",
+          message: "Thanks for reaching out. I'll get back to you soon.",
         });
         setForm({ name: "", email: "", message: "" });
       })
@@ -128,7 +128,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
             {errors.name && (
@@ -144,7 +144,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email address?"
+              placeholder="Your email address"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
             {errors.email && (
@@ -160,7 +160,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="What would you like to talk about?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
             {errors.message && (

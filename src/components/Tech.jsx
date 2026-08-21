@@ -1,10 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { technologies } from "../constants";
 
 const Tech = () => {
   return (
+    <>
+    <div className="text-center mb-12">
+      <p className={styles.sectionSubText}>Tools I work with</p>
+      <h2 className={styles.sectionHeadText}>Technologies.</h2>
+    </div>
     <div className='flex flex-row flex-wrap justify-center gap-5'>
       {technologies.map((technology, index) => (
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: index * .04 }} viewport={{ once: true }} className='w-28 h-28 rounded-2xl bg-tertiary border border-white/5 flex flex-col items-center justify-center gap-2 hover:border-[#915EFF]/60 transition-colors' key={technology.name}>
@@ -13,6 +19,7 @@ const Tech = () => {
         </motion.div>
       ))}
     </div>
+    </>
   );
 };
 

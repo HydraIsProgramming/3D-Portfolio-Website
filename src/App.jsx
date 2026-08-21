@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { lazy, Suspense, useEffect, useRef, useState } from "react";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Skills, Tech, Works } from "./components";
+import { About, Contact, Education, Experience, Feedbacks, Hero, Navbar, Skills, Tech, Works } from "./components";
 
 const StarsCanvas = lazy(() => import("./components/canvas/Stars"));
 
@@ -36,6 +36,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <Education />
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />

@@ -22,7 +22,10 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        // Lowered so the monitor clears the hero call-to-action buttons.
+        // At this camera (fov 25, distance ~20) one unit is roughly 80px on screen,
+        // so -3.25 -> -4.0 drops the model about 60px. Tune this number to taste.
+        position={isMobile ? [0, -3.6, -2.2] : [0, -4, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
