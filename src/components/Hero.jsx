@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
-import { useState, useEffect, lazy, Suspense } from "react";
+import { useState, useEffect } from "react";
 
 import { styles } from "../styles";
 import NeuralBackground from "./NeuralBackground";
-
-const ComputersCanvas = lazy(() => import("./canvas/Computers"));
+import workspace from "../assets/workspace.svg";
 
 const ROLES = [
   "Software Engineer",
@@ -44,22 +43,12 @@ const useTypewriter = (words, typingSpeed = 80, deletingSpeed = 40, pause = 1800
 
 const Hero = () => {
   const role = useTypewriter(ROLES);
-  const [show3D, setShow3D] = useState(false);
-
-  useEffect(() => {
-    const smallScreen = window.matchMedia("(max-width: 767px)").matches;
-    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!smallScreen && !reducedMotion) {
-      const timer = window.setTimeout(() => setShow3D(true), 150);
-      return () => window.clearTimeout(timer);
-    }
-  }, []);
 
   return (
     <section className={`relative w-full h-screen mx-auto overflow-hidden`}>
       <NeuralBackground />
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] z-10 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -89,7 +78,13 @@ const Hero = () => {
         </div>
       </div>
 
-      {show3D && <Suspense fallback={<div className="absolute inset-0 flex items-center justify-center text-secondary">Loading 3D workspace…</div>}><ComputersCanvas /></Suspense>}
+      <img
+        src={workspace}
+        alt=""
+        aria-hidden="true"
+        fetchpriority="high"
+        className="hidden md:block absolute z-0 left-1/2 -translate-x-1/2 bottom-16 w-[88%] max-w-[1100px] max-h-[46vh] object-contain pointer-events-none select-none"
+      />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
